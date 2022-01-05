@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Dashboard = ({ auth: { user } }) => {
 	return (
 <>
-		<section className="section cta-page">
+		<section className="section cta-page" style={{background:"url(../images/bg/banner.jpg) no repeat "}}>
         <div className="container" style={{height:"14em"}}>
           <div className="row">
             <div className="col-lg-4">
